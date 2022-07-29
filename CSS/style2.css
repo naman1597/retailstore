@@ -1,0 +1,121 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  font-family:Arial;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+	background-color:lavender;
+  flex: 100%;
+  width: 100vw;
+  height: 100vh;
+	/* Should be removed. Only for demonstration */
+}
+
+.column2 {
+	background-color:rgb(140, 236, 240);
+  flex: 100%;
+  color: black;
+  width: 100vw;
+  height: 100vh;
+	/* Should be removed. Only for demonstration */
+}
+#header{
+	color: #fff;
+	background: #e74c3c;
+}
+#img1{
+	width:150px;
+	height:200px;
+	margin-left: 70px;
+	margin-top: 70px;
+}
+#img2{
+	width:150px;
+	height:200px;
+	margin-left: 70px;
+	margin-top: 70px;
+}
+#img3{
+	width:150px;
+	height:200px;
+	margin-left: 70px;
+	margin-top: 70px;
+}
+.form-label{
+	margin-left: 350px;
+	text-align: center;
+}
+.form-label2{
+	margin-left: 350px;
+	text-align: center;
+}
+.about_us{
+	margin-bottom: 100px;
+	margin-left: 20px;
+	margin-top:  50px;
+}
+.product_range{
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+.store_hrs{
+	margin-left: 20px;
+	margin-bottom: 70px;
+	margin-top: 80px;
+}
+.store_location{
+	margin-top: 110px;
+	margin-bottom: 100px;
+}
+
+#FormTextarea{
+	background-color: white;
+}
+#FormTextarea2{
+	background-color: white;
+}
+#FormTextarea3{
+	background-color: teal;
+	color: white;
+}
+#FormTextarea4{
+	background-color: teal;
+}
+#banner{
+	background: url('../images/banner3.jpg') no-repeat 0 0;
+	background-size : cover;
+}
+
+.banner-title{
+	padding-top: 20px;
+	margin-bottom: 200px;
+	margin-left: 30px;
+}
+
+#footer{
+	color: #fff;
+	background: #2c3e50;
+	padding: 25px 50px 25px 50px;
+	height: 100%;
+
+}
+span{
+	text-align: center;
+	margin-left: 480px;
+}
+@media (max-width: 700px){
+	.news-post{
+	  flex-direction:column;
+		margin-bottom: 30px;
+	}
+
+}
